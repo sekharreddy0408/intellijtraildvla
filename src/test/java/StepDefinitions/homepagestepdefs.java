@@ -70,7 +70,7 @@ public class homepagestepdefs {
 	@Then("^Verify color of the car$")
 	public void verify_color_of_the_car() throws IOException  {
 		homepage_method.verifycolor();
-	//	util.getscreenshot();
+		util.getscreenshot();
 	}
 	
 	
